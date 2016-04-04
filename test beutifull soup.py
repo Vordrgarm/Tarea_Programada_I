@@ -34,7 +34,8 @@ for i in range(1,maxPages):
             fecha = entrada.find('span', {'class' : 'fecha'}).getText();
 
             # Imprimo el Título, Autor y Fecha de las entradas
-            print "%d - %s  |  %s  |  %s" %(counter,titulo,autor,fecha);
+            
+            print ("%d - %s  |  %s  |  %s" %(counter,titulo,autor,fecha));
 
     else:
         # Si ya no existe la página y me da un 400
