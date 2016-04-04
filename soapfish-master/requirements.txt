@@ -1,0 +1,7 @@
+argparse
+iso8601
+jinja2
+lxml
+pythonic_testcase
+requests
+six>=1.5.2
